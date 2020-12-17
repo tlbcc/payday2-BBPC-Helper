@@ -1,0 +1,27 @@
+{
+	"name": "[Big Bank] PC Helper",
+	"description": "find big bank pc 找到大银行中的正确的员工电脑，并标注电脑图标",
+	"author": "tlbcc",
+	"contact": "",
+	"version": "1.0",
+	"priority": 100,
+	"blt_version": 2,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/localizationmanager",
+			"script_path": "lua/Waypoint.lua"
+		},
+		{
+			"hook_id": "core/lib/managers/mission/coremissionscriptelement",
+			"script_path": "lua/GetRightOne.lua"
+		},
+        {
+          "hook_id": "core/lib/managers/mission/coreelementrandom",
+          "script_path": "lua/CoreElementRandom.lua"
+        },
+		{
+			"hook_id": "lib/managers/dialogmanager",
+			"script_path": "lua/AttachEvent.lua"
+		}
+	]
+}
