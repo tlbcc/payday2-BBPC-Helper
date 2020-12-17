@@ -2,7 +2,7 @@
 	"name": "[Big Bank] PC Helper",
 	"description": "find big bank pc 找到大银行中的正确的员工电脑，并标注电脑图标",
 	"author": "tlbcc",
-	"contact": "",
+	"contact": "https://github.com/tlbcc/payday2-BBPC-Helper",
 	"version": "1.0",
 	"priority": 100,
 	"blt_version": 2,
